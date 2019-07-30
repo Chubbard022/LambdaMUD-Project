@@ -57,7 +57,7 @@ creative guide.
 
 #### Server
 - [ ] Create a new API endpoint for `say` which broadcasts a message to other players in the current room
-- [ ] Deploy to Heroku
+- [X] Deploy to Heroku
 
 #### General
 - [ ] Header comments in all source files that describe overall what the file does

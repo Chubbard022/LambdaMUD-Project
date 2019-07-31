@@ -5,109 +5,109 @@ Room.objects.all().delete()
 
 #room description 01
 room_01 = Room(title="room_01",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_02 = Room(title="room_02",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_03 = Room(title="room_03",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_04 = Room(title="room_04",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_05 = Room(title="room_05",
-              description=" ")                
+              description="Looking around it seems like there is only houses and grass")
 room_06 = Room(title="room_06",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_07 = Room(title="room_07",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_08 = Room(title="room_08",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_09 = Room(title="room_09",
-              description=" ")
+              description="Looking around it seems like there is only houses and grass")
 room_10 = Room(title="room_10",
-              description=" ") 
+              description="Looking around it seems like there is only houses and grass") 
 #room description 02
 room_11 = Room(title="room_11",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_12 = Room(title="room_12",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_13 = Room(title="room_13",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_14 = Room(title="room_14",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_15 = Room(title="room_15",
-              description=" ")                
+              description="looking around at the emptyness seems so peaceful")                
 room_16 = Room(title="room_16",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_17 = Room(title="room_17",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_18 = Room(title="room_18",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_19 = Room(title="room_19",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 room_20 = Room(title="room_20",
-              description=" ")
+              description="looking around at the emptyness seems so peaceful")
 #room description 03
 room_21 = Room(title="room_21",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_22 = Room(title="room_22",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_23 = Room(title="room_23",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_24 = Room(title="room_24",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_25 = Room(title="room_25",
-              description=" ")                
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")                
 room_26 = Room(title="room_26",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_27 = Room(title="room_27",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_28 = Room(title="room_28",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_29 = Room(title="room_29",
-              description=" ")
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")
 room_20 = Room(title="room_20",
-              description=" ")            
+              description="looking around the room, grass and cobblestone fill every inch the eye can see")            
 #room description 04
 room_31 = Room(title="room_31",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_32 = Room(title="room_32",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_33 = Room(title="room_33",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_34 = Room(title="room_34",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_35 = Room(title="room_35",
-              description=" ")                
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_36 = Room(title="room_36",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_37 = Room(title="room_37",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_38 = Room(title="room_38",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_39 = Room(title="room_39",
-              description=" ")
+              description="Trees fill the room, shade is near and possible fruit to eat")
 room_40 = Room(title="room_40",
-              description=" ")               
+              description="Trees fill the room, shade is near and possible fruit to eat")
 #room description 05
 room_41 = Room(title="room_41",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_42 = Room(title="room_42",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_43 = Room(title="room_43",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_44 = Room(title="room_44",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_45 = Room(title="room_45",
-              description=" ")                
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")                
 room_46 = Room(title="room_46",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_47 = Room(title="room_47",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_48 = Room(title="room_48",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_49 = Room(title="room_49",
-              description=" ")
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")
 room_50 = Room(title="room_50",
-              description=" ")                                                         
+              description="The houses in this room seem empty. Food and other necessities might have been left behind")                                                         
 #--------------------------------------------------------------------------------------------------------
 
 room_01.save()

@@ -83,7 +83,6 @@ def map(reqest):
     rooms = Room.objects.all()
     for room in rooms:
         list.append(room)
-    message = "WORKINGGGGGGGG"
-    return JsonResponse({'test_message':message,'room_list':list}, safe=True,)
+    return JsonResponse({'room_list':list}, safe=True,)
 
 

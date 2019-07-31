@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 from .models import *
 from rest_framework.decorators import api_view
 import json
+from adventure.models import Player, Room
 
 # instantiate pusher
 pusher = Pusher(app_id=config('PUSHER_APP_ID'), key=config('PUSHER_KEY'), secret=config('PUSHER_SECRET'), cluster=config('PUSHER_CLUSTER'))
@@ -74,4 +75,15 @@ def say(request):
     for p_uuid in players_in_room:
         pusher.trigger(f'p-channel-{p_uuid}', u'broadcast', {'message':f'{player.user.username} says {message}'})
     return JsonResponse({'error':"Not yet implemented"}, safe=True, status=500)
+
+@csrf_exempt
+@api_view(["GET"])
+def map(reqest):
+    #created variable to hold all rooms
+    map_list = []
+    #loop over all rooms
+    for room in Room().objects.all():
+        #put all rooms in array
+        map_list.append(room)
+    return JsonResponse({'rooms':map_list}, safe=True,)
 

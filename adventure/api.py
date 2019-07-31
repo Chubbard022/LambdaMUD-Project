@@ -86,3 +86,4 @@ def map(reqest):
     message = "WORKINGGGGGGGG"
     return JsonResponse({'test_message':message,'room_list':list}, safe=True,)
 
+

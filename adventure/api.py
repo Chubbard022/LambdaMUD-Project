@@ -79,6 +79,10 @@ def say(request):
 @csrf_exempt
 @api_view(["GET"])
 def map(reqest):
+    list = []
+    rooms = Room.objects.all()
+    for room in rooms:
+        list.append(room)
     message = "WORKINGGGGGGGG"
-    return JsonResponse({'rooms':message}, safe=True,)
+    return JsonResponse({'test_message':message,'room_list':list}, safe=True,)
 

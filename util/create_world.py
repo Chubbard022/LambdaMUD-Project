@@ -5,109 +5,109 @@ Room.objects.all().delete()
 
 #room description 01
 room_01 = Room(title="room_01",
-              description="Looking around it seems like there is only houses and grass")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_02 = Room(title="room_02",
-              description="Looking around it seems like there is only houses and grass")
+              description="This grassy patch seems to dense to walk across, you must find a new route")
 room_03 = Room(title="room_03",
-              description="Looking around it seems like there is only houses and grass")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_04 = Room(title="room_04",
-              description="Looking around it seems like there is only houses and grass")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_05 = Room(title="room_05",
-              description="Looking around it seems like there is only houses and grass")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_06 = Room(title="room_06",
-              description="Looking around it seems like there is only houses and grass")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_07 = Room(title="room_07",
-              description="Looking around it seems like there is only houses and grass")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_08 = Room(title="room_08",
-              description="Looking around it seems like there is only houses and grass")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_09 = Room(title="room_09",
-              description="Looking around it seems like there is only houses and grass")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_10 = Room(title="room_10",
-              description="Looking around it seems like there is only houses and grass") 
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind") 
 #room description 02
 room_11 = Room(title="room_11",
-              description="looking around at the emptyness seems so peaceful")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_12 = Room(title="room_12",
-              description="looking around at the emptyness seems so peaceful")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_13 = Room(title="room_13",
-              description="looking around at the emptyness seems so peaceful")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_14 = Room(title="room_14",
-              description="looking around at the emptyness seems so peaceful")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_15 = Room(title="room_15",
-              description="looking around at the emptyness seems so peaceful")                
+              description="lThis pebble walkway might lead to somewhere that has treasure")                
 room_16 = Room(title="room_16",
-              description="looking around at the emptyness seems so peaceful")
+              description="This stump seems to tall and large to move past, you must find a new route")
 room_17 = Room(title="room_17",
-              description="looking around at the emptyness seems so peaceful")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_18 = Room(title="room_18",
-              description="looking around at the emptyness seems so peaceful")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_19 = Room(title="room_19",
-              description="looking around at the emptyness seems so peaceful")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_20 = Room(title="room_20",
-              description="looking around at the emptyness seems so peaceful")
+              description="This pebble walkway might lead to somewhere that has treasure")
 #room description 03
 room_21 = Room(title="room_21",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_22 = Room(title="room_22",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_23 = Room(title="room_23",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="This giant rock seems to wide to walk across, you must find a new route")
 room_24 = Room(title="room_24",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_25 = Room(title="room_25",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")                
+              description="This pebble walkway might lead to somewhere that has treasure")                
 room_26 = Room(title="room_26",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_27 = Room(title="room_27",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_28 = Room(title="room_28",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_29 = Room(title="room_29",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")
+              description="This stump seems to tall and large to move past, you must find a new route")
 room_30 = Room(title="room_20",
-              description="looking around the room, grass and cobblestone fill every inch the eye can see")            
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")            
 #room description 04
 room_31 = Room(title="room_31",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_32 = Room(title="room_32",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This fernace is still hot, there might be food somewhere around here")
 room_33 = Room(title="room_33",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This grassy patch seems to dense to walk across, you must find a new route")
 room_34 = Room(title="room_34",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_35 = Room(title="room_35",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_36 = Room(title="room_36",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_37 = Room(title="room_37",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This giant rock seems to wide to walk across, you must find a new route")
 room_38 = Room(title="room_38",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_39 = Room(title="room_39",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_40 = Room(title="room_40",
-              description="Trees fill the room, shade is near and possible fruit to eat")
+              description="This pebble walkway might lead to somewhere that has treasure")
 #room description 05
 room_41 = Room(title="room_41",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_42 = Room(title="room_42",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_43 = Room(title="room_43",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_44 = Room(title="room_44",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_45 = Room(title="room_45",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")                
+              description="This pebble walkway might lead to somewhere that has treasure")                
 room_46 = Room(title="room_46",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
 room_47 = Room(title="room_47",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_48 = Room(title="room_48",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="This pebble walkway might lead to somewhere that has treasure")
 room_49 = Room(title="room_49",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")
+              description="This fernace is still hot, there might be food somewhere around here")
 room_50 = Room(title="room_50",
-              description="The houses in this room seem empty. Food and other necessities might have been left behind")                                                         
+              description="This grassy patch seems to dense to walk across, you must find a new route")                                                         
 #--------------------------------------------------------------------------------------------------------
 
 room_01.save()
@@ -179,8 +179,6 @@ room_31.connectRooms(room_41,'s')
 room_41.connectRooms(room_31,'n')
 
 # Row 02
-room_02.connectRooms(room_12,'s')
-room_12.connectRooms(room_02,'n')
 
 room_12.connectRooms(room_22,'s')
 room_22.connectRooms(room_12,'n')
@@ -194,15 +192,6 @@ room_42.connectRooms(room_32,'n')
 # Row 03 
 room_03.connectRooms(room_13,'s')
 room_13.connectRooms(room_03,'n')
-
-room_13.connectRooms(room_23,'s')
-room_23.connectRooms(room_13,'n')
-
-room_23.connectRooms(room_33,'s')
-room_33.connectRooms(room_23,'n')
-
-room_33.connectRooms(room_43,'s')
-room_43.connectRooms(room_33,'n')
 
 # Row 04 
 room_04.connectRooms(room_14,'s')
@@ -227,21 +216,9 @@ room_25.connectRooms(room_15,'n')
 room_25.connectRooms(room_35,'s')
 room_35.connectRooms(room_25,'n')
 
-room_35.connectRooms(room_45,'s')
-room_45.connectRooms(room_35,'n')
-
 # Row 06 
-room_06.connectRooms(room_16,'s')
-room_16.connectRooms(room_06,'n')
-
-room_16.connectRooms(room_26,'s')
-room_26.connectRooms(room_16,'n')
-
 room_26.connectRooms(room_36,'s')
 room_36.connectRooms(room_26,'n')
-
-room_36.connectRooms(room_46,'s')
-room_46.connectRooms(room_36,'n')
 
 # Row 07 
 room_07.connectRooms(room_17,'s')
@@ -249,12 +226,6 @@ room_17.connectRooms(room_07,'n')
 
 room_17.connectRooms(room_27,'s')
 room_27.connectRooms(room_17,'n')
-
-room_27.connectRooms(room_37,'s')
-room_37.connectRooms(room_27,'n')
-
-room_37.connectRooms(room_47,'s')
-room_47.connectRooms(room_37,'n')
 
 # Row 08
 room_08.connectRooms(room_18,'s')
@@ -273,12 +244,6 @@ room_48.connectRooms(room_38,'n')
 room_09.connectRooms(room_19,'s')
 room_19.connectRooms(room_09,'n')
 
-room_19.connectRooms(room_29,'s')
-room_29.connectRooms(room_19,'n')
-
-room_29.connectRooms(room_39,'s')
-room_39.connectRooms(room_29,'n')
-
 room_39.connectRooms(room_49,'s')
 room_49.connectRooms(room_39,'n')
 
@@ -292,18 +257,7 @@ room_30.connectRooms(room_20,'n')
 room_30.connectRooms(room_40,'s')
 room_40.connectRooms(room_30,'n')
 
-room_40.connectRooms(room_50,'s')
-room_50.connectRooms(room_40,'n')
-
-
-
 # 0-10 e-w connections
-
-room_01.connectRooms(room_02,'e')
-room_02.connectRooms(room_01,'w')
-
-room_02.connectRooms(room_03,'e')
-room_03.connectRooms(room_02,'w')
 
 room_03.connectRooms(room_04,'e')
 room_04.connectRooms(room_03,'w')
@@ -316,9 +270,6 @@ room_06.connectRooms(room_05,'w')
 
 room_06.connectRooms(room_07,'e')
 room_07.connectRooms(room_06,'w')
-
-room_07.connectRooms(room_08,'e')
-room_08.connectRooms(room_07,'w')
 
 room_08.connectRooms(room_09,'e')
 room_09.connectRooms(room_08,'w')
@@ -340,14 +291,6 @@ room_14.connectRooms(room_13,'w')
 room_14.connectRooms(room_15,'e')
 room_15.connectRooms(room_14,'w')
 
-room_15.connectRooms(room_16,'e')
-room_16.connectRooms(room_15,'w')
-
-room_16.connectRooms(room_17,'e')
-room_07.connectRooms(room_16,'w')
-
-room_17.connectRooms(room_18,'e')
-room_18.connectRooms(room_17,'w')
 
 room_18.connectRooms(room_19,'e')
 room_19.connectRooms(room_18,'w')
@@ -359,12 +302,6 @@ room_20.connectRooms(room_19,'w')
 
 room_21.connectRooms(room_22,'e')
 room_22.connectRooms(room_21,'w')
-
-room_22.connectRooms(room_23,'e')
-room_23.connectRooms(room_22,'w')
-
-room_23.connectRooms(room_24,'e')
-room_24.connectRooms(room_23,'w')
 
 room_24.connectRooms(room_25,'e')
 room_25.connectRooms(room_24,'w')
@@ -378,34 +315,17 @@ room_27.connectRooms(room_26,'w')
 room_27.connectRooms(room_28,'e')
 room_28.connectRooms(room_27,'w')
 
-room_28.connectRooms(room_29,'e')
-room_29.connectRooms(room_28,'w')
-
-room_29.connectRooms(room_30,'e')
-room_30.connectRooms(room_29,'w')
 
 # 30-40 e-w connections
 
 room_31.connectRooms(room_32,'e')
 room_32.connectRooms(room_31,'w')
 
-room_32.connectRooms(room_33,'e')
-room_33.connectRooms(room_32,'w')
-
-room_33.connectRooms(room_34,'e')
-room_34.connectRooms(room_33,'w')
-
 room_34.connectRooms(room_35,'e')
 room_35.connectRooms(room_34,'w')
 
 room_35.connectRooms(room_36,'e')
 room_36.connectRooms(room_35,'w')
-
-room_36.connectRooms(room_37,'e')
-room_37.connectRooms(room_36,'w')
-
-room_37.connectRooms(room_38,'e')
-room_38.connectRooms(room_37,'w')
 
 room_38.connectRooms(room_39,'e')
 room_39.connectRooms(room_38,'w')
@@ -438,9 +358,6 @@ room_48.connectRooms(room_47,'w')
 
 room_48.connectRooms(room_49,'e')
 room_49.connectRooms(room_48,'w')
-
-room_49.connectRooms(room_50,'e')
-room_50.connectRooms(room_49,'w')
 
 
 

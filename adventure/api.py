@@ -82,14 +82,14 @@ def map(reqest):
     room_titles = []
     room_descriptions = []
     player_list = []
-    rooms = Room.objects.all().title
+    rooms = Room.objects.all()
+
     for room in rooms:
         room_titles.append(room.title)
         room_descriptions.append(room.description)
+
     room = player.room()
     players_in_room = room.playerUUIDs(player_id)
-    for player in players_in_room:
-        player_list.append()
     return JsonResponse({'room_title':room_titles,'room_description':room_descriptions}, safe=True, status=200)
 
 

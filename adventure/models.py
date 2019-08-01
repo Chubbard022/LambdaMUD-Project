@@ -1,3 +1,9 @@
+"""
+This models.py file contains the classes for the Player and Room
+Within each class, there are methods and variables for when new 
+instances of the Player and Room are created
+"""
+
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save

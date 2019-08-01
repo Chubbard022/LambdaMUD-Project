@@ -1,3 +1,10 @@
+"""
+Within the create_world.py file, each room is an instance of the Room class. The rooms are
+connected to eachother starting on line 170. From the design file that the frontend is using, There 
+are certain blockers that don't allow a user to move in certain directions
+Once the rooms are created and connected, they are saved and then put into the database.
+"""
+
 from django.contrib.auth.models import User
 from adventure.models import Player, Room
 

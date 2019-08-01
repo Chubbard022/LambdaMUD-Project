@@ -76,18 +76,19 @@ def say(request):
         pusher.trigger(f'p-channel-{p_uuid}', u'broadcast', {'message':f'{player.user.username} says {message}'})
     return JsonResponse({'error':"Not yet implemented"}, safe=True, status=500)
 
+"""
+
+"""
+
 @csrf_exempt
 @api_view(["GET"])
 def map(reqest):
-    room_titles = []
-    room_descriptions = []
     rooms = Room.objects.all()
+    room_list = []
     if len(rooms) > 0:
         for room in rooms:
-            room_titles.append(room.title)
-            room_descriptions.append(room.description)
-        room_object = dict(zip(room_titles,room_descriptions))
-        return JsonResponse({'room_object':room_object}, safe=True, status=200)
+            room_list.append({room.title,room.description})
+        return JsonResponse({'room_list':room_list}, safe=True, status=200)
     else:
         return JsonResponse({'error':'No rooms found'}, safe=True, status=500)
 

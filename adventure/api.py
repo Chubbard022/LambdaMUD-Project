@@ -97,9 +97,8 @@ def map(reqest):
     room_list = []
     if len(rooms) > 0:
         for room in rooms:
-            room_list.append({room.title,room.description})
-        return JsonResponse({'room_list':room_list}, safe=True, status=200)
-    else:
-        return JsonResponse({'error':'No rooms found'}, safe=True, status=500)
+            room_list.append({"title":room.title,"description":room.description})
+    return JsonResponse({'room_list':room_list}, safe=True, status=200)
+    
 
 

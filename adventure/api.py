@@ -81,13 +81,13 @@ def say(request):
 def map(reqest):
     room_titles = []
     room_descriptions = []
-    player_list = []
     rooms = Room.objects.all()
     if len(rooms) > 0:
         for room in rooms:
             room_titles.append(room.title)
             room_descriptions.append(room.description)
-        return JsonResponse({'room_title':room_titles,'room_description':room_descriptions}, safe=True, status=200)
+        room_object = dict(zip(room_titles,room_descriptions))
+        return JsonResponse({'room_object':room_object}, safe=True, status=200)
     else:
         return JsonResponse({'error':'No rooms found'}, safe=True, status=500)
 

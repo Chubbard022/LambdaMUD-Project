@@ -83,13 +83,12 @@ def map(reqest):
     room_descriptions = []
     player_list = []
     rooms = Room.objects.all()
-
-    for room in rooms:
-        room_titles.append(room.title)
-        room_descriptions.append(room.description)
-
-    room = player.room()
-    players_in_room = room.playerUUIDs(player_id)
-    return JsonResponse({'room_title':room_titles,'room_description':room_descriptions}, safe=True, status=200)
+    if len(rooms) > 0:
+        for room in rooms:
+            room_titles.append(room.title)
+            room_descriptions.append(room.description)
+        return JsonResponse({'room_title':room_titles,'room_description':room_descriptions}, safe=True, status=200)
+    else:
+        return JsonResponse({'error':'No rooms found'}, safe=True, status=500)
 
 

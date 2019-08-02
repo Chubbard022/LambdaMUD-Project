@@ -11,6 +11,12 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 import uuid
 
+"""
+The Room class contains data and methods necessary to set up a room. The data
+includes the room title and description, as well as pointers to the rooms to the north,
+south, east and west
+"""
+
 class Room(models.Model):
     title = models.CharField(max_length=50, default="DEFAULT TITLE")
     description = models.CharField(max_length=500, default="DEFAULT DESCRIPTION")
@@ -42,7 +48,10 @@ class Room(models.Model):
     def playerUUIDs(self, currentPlayerID):
         return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
 
-
+"""
+The Player class contains data and methods necessary to set up a player. The data
+includes the user field, current room and uuid
+"""
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     currentRoom = models.IntegerField(default=0)

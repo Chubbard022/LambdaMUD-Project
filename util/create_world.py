@@ -12,15 +12,15 @@ Room.objects.all().delete()
 
 #room description 01
 room_01 = Room(title="room_01",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_02 = Room(title="room_02",
               description="This grassy patch seems to dense to walk across, you must find a new route")
 room_03 = Room(title="room_03",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_04 = Room(title="room_04",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_05 = Room(title="room_05",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_06 = Room(title="room_06",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_07 = Room(title="room_07",
@@ -28,24 +28,24 @@ room_07 = Room(title="room_07",
 room_08 = Room(title="room_08",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_09 = Room(title="room_09",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_10 = Room(title="room_10",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind") 
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind") 
 #room description 02
 room_11 = Room(title="room_11",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_12 = Room(title="room_12",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_13 = Room(title="room_13",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_14 = Room(title="room_14",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_15 = Room(title="room_15",
               description="lThis pebble walkway might lead to somewhere that has treasure")                
 room_16 = Room(title="room_16",
               description="This stump seems to tall and large to move past, you must find a new route")
 room_17 = Room(title="room_17",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_18 = Room(title="room_18",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_19 = Room(title="room_19",
@@ -54,7 +54,7 @@ room_20 = Room(title="room_20",
               description="This pebble walkway might lead to somewhere that has treasure")
 #room description 03
 room_21 = Room(title="room_21",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_22 = Room(title="room_22",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_23 = Room(title="room_23",
@@ -64,15 +64,15 @@ room_24 = Room(title="room_24",
 room_25 = Room(title="room_25",
               description="This pebble walkway might lead to somewhere that has treasure")                
 room_26 = Room(title="room_26",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_27 = Room(title="room_27",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_28 = Room(title="room_28",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_29 = Room(title="room_29",
               description="This stump seems to tall and large to move past, you must find a new route")
-room_30 = Room(title="room_20",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")            
+room_30 = Room(title="room_30",
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")            
 #room description 04
 room_31 = Room(title="room_31",
               description="This pebble walkway might lead to somewhere that has treasure")
@@ -81,7 +81,7 @@ room_32 = Room(title="room_32",
 room_33 = Room(title="room_33",
               description="This grassy patch seems to dense to walk across, you must find a new route")
 room_34 = Room(title="room_34",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_35 = Room(title="room_35",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_36 = Room(title="room_36",
@@ -91,22 +91,22 @@ room_37 = Room(title="room_37",
 room_38 = Room(title="room_38",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_39 = Room(title="room_39",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_40 = Room(title="room_40",
               description="This pebble walkway might lead to somewhere that has treasure")
 #room description 05
 room_41 = Room(title="room_41",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_42 = Room(title="room_42",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_43 = Room(title="room_43",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_44 = Room(title="room_44",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_45 = Room(title="room_45",
               description="This pebble walkway might lead to somewhere that has treasure")                
 room_46 = Room(title="room_46",
-              description="Looking around, the house looks like someone used to live hear. They might have left valuables behind")
+              description="Looking around, the house looks like someone used to live here. They might have left valuables behind")
 room_47 = Room(title="room_47",
               description="This pebble walkway might lead to somewhere that has treasure")
 room_48 = Room(title="room_48",

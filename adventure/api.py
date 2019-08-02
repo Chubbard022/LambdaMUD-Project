@@ -18,6 +18,11 @@ from adventure.models import Player, Room
 # instantiate pusher
 pusher = Pusher(app_id=config('PUSHER_APP_ID'), key=config('PUSHER_KEY'), secret=config('PUSHER_SECRET'), cluster=config('PUSHER_CLUSTER'))
 
+"""
+The initialize method extracts the user from the request and uses it to initialize
+player, player_id, uuid, room, ant the player's name
+"""
+
 @csrf_exempt
 @api_view(["GET"])
 def initialize(request):
@@ -29,6 +34,11 @@ def initialize(request):
     players = room.playerNames(player_id)
     return JsonResponse({'uuid': uuid, 'name':player.user.username, 'title':room.title, 'description':room.description, 'players':players}, safe=True)
 
+
+"""
+The move method gets the direction passed in the request msg and uses it to return
+the room in the direction requested. If the move is not legal, it returns the current room
+"""
 # @csrf_exempt
 @api_view(["POST"])
 def move(request):
